@@ -220,7 +220,6 @@ def info_menu(obj, app):
 
 @click.command()
 def cli():
-    menu = 'main'
     start_logo()
     default_file = get_default_file()
     json_file = JsonFile(default_file)
@@ -229,6 +228,7 @@ def cli():
         if not app:
             break
         link_dict = json_file.apps[app]
+        menu = 'main'
         while 1:
             if menu == "main":
                 smart_print(f'Application selected: {app}')

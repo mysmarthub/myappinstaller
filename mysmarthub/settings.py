@@ -13,7 +13,7 @@ NAME = "mysmarthub"
 
 TITLE = 'Mysmarthub installer'
 DESCRIPTION = 'Apps from the developer Aleksandr Suvorov (mysmarthub)'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 AUTHOR = 'Aleksandr Suvorov'
 EMAIL = 'mysmarthub@ya.ru'
