@@ -2,13 +2,18 @@ import inspect
 import json
 import os
 import shutil
-
+import re
 import click
+
+from pathlib import Path
 
 try:
     from mysmarthub import settings
 except ModuleNotFoundError:
     import settings
+
+
+HOME = str(Path.home())
 
 
 def get_root_path(file_name):
@@ -173,7 +178,8 @@ def downloads_menu(obj, app):
         if char in ("b", "и"):
             return "main"
         elif char == 'd':
-            os.system(f'wget {site}')
+            app_name = f'{app}.zip'.replace(' ', '_')
+            os.system(f'wget -O {app_name} -P {HOME} {site}')
         else:
             click.echo("Invalid input")
         smart_print()

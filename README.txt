@@ -19,11 +19,17 @@ Termux support:
 You can easily use the utility with Termux
 on mobile phones and tablets.
 
-    1. Install Termux
-    2. pkg install python
-    3. pip install mysmarthub
-    4. mysmarthub
-    5. To access the file storage:
+    Install Termux
+    ------------------------------
+
+    In console:
+    ------------------------------
+    1. pkg install python
+    2. pkg install git
+    3. pkg install wget
+    4. pip install mysmarthub
+    5. mysmarthub
+    6. To access the file storage:
         termux-setup-storage
         cd ~/storage
 

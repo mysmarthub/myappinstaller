@@ -6,6 +6,8 @@ Mysmarthub Installer
 ---
 >Apps from the developer Aleksandr Suvorov (mysmarthub)
 
+
+[![Python](https://img.shields.io/static/v1?label=Python&message=3.7+&color=yellow)](https://python.org)
 ---
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/mysmarthub?label=pypi%20downloads)](https://pypi.org/project/mysmarthub/)
 [![PyPI](https://img.shields.io/pypi/v/mysmarthub)](https://pypi.org/project/mysmarthub/)
@@ -40,11 +42,16 @@ Termux support:
 You can easily use the utility with Termux
 on mobile phones and tablets.
 
-    1. Install Termux
-    2. pkg install python
-    3. pip install mysmarthub
-    4. mysmarthub
-    5. To access the file storage:
+    Install Termux
+    
+    In console:
+    -----------------------
+    1. pkg install python
+    2. pkg install git
+    3. pkg install wget
+    4. pip install mysmarthub
+    5. mysmarthub
+    6. To access the file storage:
         termux-setup-storage
         cd ~/storage
 
@@ -58,6 +65,8 @@ Description:
 ---
 Use:
 ---
+
+`sudo apt install git`
 
 Package installation:
 
