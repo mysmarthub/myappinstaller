@@ -1,1 +1,1 @@
-"""Smarthub installer"""
+"""Mysmarthub installer"""

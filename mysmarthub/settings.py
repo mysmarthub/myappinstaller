@@ -5,13 +5,13 @@
 # https://github.com/mysmarthub/
 # Copyright © 2020-2021 Aleksandr Suvorov
 # -----------------------------------------------------------------------------
-"""Smarthub installer"""
+"""Mysmarthub installer"""
 
 FILE_NAME = 'applications.json'
 PACKAGE = "mysmarthub"
 NAME = "mysmarthub"
 
-TITLE = 'Smarthub installer'
+TITLE = 'Mysmarthub installer'
 DESCRIPTION = 'Apps from the developer Aleksandr Suvorov (mysmarthub)'
 VERSION = '0.0.1'
 
