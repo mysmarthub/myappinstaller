@@ -1,0 +1,62 @@
+{
+    "My Cleaner": {
+        "link": "https://github.com/mysmarthub/mycleaner/",
+        "description": "A package of modules and CLI utility for destroying, zeroing, and deleting files.",
+        "clone": "https://github.com/mysmarthub/mycleaner.git",
+        "download": "https://github.com/mysmarthub/mycleaner/archive/master.zip",
+        "pip": {
+            "name": "mycleaner",
+            "link": "https://pypi.org/project/mycleaner/"
+        }
+    },
+    "Smart Files Destroyer": {
+        "link": "https://github.com/mysmarthub/sfd/",
+        "description": "CLI utility for destroying, zeroing, and deleting files.",
+        "clone": "https://github.com/mysmarthub/sfd.git",
+        "download": "https://github.com/mysmarthub/sfd/archive/master.zip",
+        "pip": {
+            "name": "sfd",
+            "link": "https://pypi.org/project/sfd/"
+        }
+    },
+    "Linux Auto Fix": {
+        "link": "https://github.com/mysmarthub/linuxautofix/",
+        "description": "Console utility for auto configuration of Linux distributions after installation. Allows you to automate the execution of commands.",
+        "clone": "https://github.com/mysmarthub/sfd.git",
+        "download": "https://github.com/mysmarthub/sfd/archive/master.zip",
+        "pip": {
+            "name": "linuxautofix",
+            "link": "https://pypi.org/project/linuxautofix/"
+        }
+    },
+    "Smart Password Generator": {
+        "link": "https://github.com/mysmarthub/smartpassgen/",
+        "description": "A package of modules for creating smart password generators. A console utility for generating smart passwords.",
+        "clone": "https://github.com/mysmarthub/smartpassgen.git",
+        "download": "https://github.com/mysmarthub/smartpassgen/archive/master.zip",
+        "pip": {
+            "name": "smartpassgen",
+            "link": "https://pypi.org/project/smartpassgen/"
+        }
+    },
+    "Smart Password Manager": {
+        "link": "https://github.com/mysmarthub/smartpassman/",
+        "description": "Console Smart Password Manager.",
+        "clone": "https://github.com/mysmarthub/smartpassman.git",
+        "download": "https://github.com/mysmarthub/smartpassman/archive/master.zip",
+        "pip": {
+            "name": "smartpassman",
+            "link": "https://pypi.org/project/smartpassman/"
+        }
+    },
+    "Smart Cleaner": {
+        "link": "https://github.com/mysmarthub/smartcleaner/",
+        "description": "Graphical utility for destroying, zeroing, and deleting files, to complicate or completely impossible to restore them.",
+        "clone": "https://github.com/mysmarthub/smartcleaner.git",
+        "download": "https://github.com/mysmarthub/smartcleaner/archive/master.zip",
+        "pip": {
+            "name": "smartcleaner",
+            "link": "https://pypi.org/project/smartcleaner/"
+        }
+    }
+}
