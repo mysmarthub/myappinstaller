@@ -1,4 +1,14 @@
 {
+    "Commandoro": {
+        "link": "https://github.com/mysmarthub/commandoro/",
+        "description": "Commandoro - utility for automatic command execution.",
+        "clone": "https://github.com/mysmarthub/commandoro.git",
+        "download": "https://github.com/mysmarthub/commandoro/archive/master.zip",
+        "pip": {
+            "name": "commandoro",
+            "link": "https://pypi.org/project/commandoro/"
+        }
+    },
     "My Cleaner": {
         "link": "https://github.com/mysmarthub/mycleaner/",
         "description": "A package of modules and CLI utility for destroying, zeroing, and deleting files.",
